@@ -5,7 +5,7 @@ function Navbar (){
 
     return(
         <nav className={styles.navbar}>
-            <img src={logo} alt="vtex" />
+            <img src={logo} alt="vtex" className={styles.logo}/>
         </nav>
     )
 }
