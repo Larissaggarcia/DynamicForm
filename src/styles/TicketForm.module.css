@@ -1,0 +1,92 @@
+.container {
+    display: flex; 
+    flex-direction: row-reverse;
+    margin: 64px 156px;
+}
+.formulario {
+    flex: 1; 
+    margin-right: 10px;
+}
+.imagem {
+    max-width: 100%; 
+    height: 550px; 
+    width: 586px; 
+}
+.formTitle{
+    font-size: 42px;
+    padding-bottom: 25px;
+}
+.inputs {
+    position: relative;
+    margin-bottom: 32px;
+}
+.inputs input {
+  font-family: inherit;
+  border: none;
+  border-bottom: 1px solid #BDBDBD; 
+  padding: 8px 0;
+  width: 91%;
+  background-color: transparent;
+}
+.inputs input:focus {
+  outline: none;
+  border-bottom: 2px solid #6200EE; 
+}
+.inputs label {
+  top: 0;
+  left: 0;
+  color: #757575; 
+  font-size: 16px;
+  transition: all 0.2s ease-out;
+  height: 56px;
+}
+.inputs input:focus ~ label,
+.inputs input:not(:placeholder-shown) ~ label {
+  top: -16px; 
+  font-size: 12px; 
+  color: #6200EE; 
+}
+.inputs input,
+.inputs textarea {
+  font-family: inherit;
+  border: 1px solid #BDBDBD;
+  border-radius: 15px;
+  padding: 8px;
+  width: 91%;
+  box-sizing: border-box;
+}
+.inputs input:focus,
+.inputs textarea:focus {
+  outline: none;
+  border-color: #6200EE;
+}
+.inputs label {
+  color: #757575;
+  font-size: 16px;
+  margin-bottom: 4px; 
+  padding: 0 0 0 12px;
+}
+.inputs input[type="text"],
+.inputs input[type="email"],
+.inputs input[type="password"],
+.inputs textarea {
+  height: auto;
+  scrollbar-width: none;
+  padding: 10px 15px;
+  color: #33475b;
+  margin-top: 5px;
+  background-color: #f5f8fa;
+}
+button {
+  background-color: #5C5891;
+  color: #fff;
+  border: none;
+  border-radius: 15px;
+  padding: 10px 20px;
+  cursor: pointer;
+  width: 91%;
+}
+
+button:disabled {
+  background-color: #787680;
+}
