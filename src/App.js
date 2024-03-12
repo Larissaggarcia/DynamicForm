@@ -1,8 +1,12 @@
 import Navbar from './components/layouts/Navbar'
+import Form from './components/forms/TicketForm'
 
 function App() {
   return (
-    <Navbar />
+    <div>
+      <Navbar />
+      <Form />
+    </div>
   );
 }
 
