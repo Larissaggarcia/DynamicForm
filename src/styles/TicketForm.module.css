@@ -47,7 +47,8 @@
   color: #6200EE; 
 }
 .inputs input,
-.inputs textarea {
+.inputs textarea,
+.select {
   font-family: inherit;
   border: 1px solid #BDBDBD;
   border-radius: 15px;
@@ -56,7 +57,8 @@
   box-sizing: border-box;
 }
 .inputs input:focus,
-.inputs textarea:focus {
+.inputs textarea:focus,
+.select:focus {
   outline: none;
   border-color: #6200EE;
 }
@@ -65,15 +67,17 @@
   font-size: 16px;
   margin-bottom: 4px; 
   padding: 0 0 0 12px;
+  display: grid;
 }
 .inputs input[type="text"],
 .inputs input[type="email"],
 .inputs input[type="password"],
-.inputs textarea {
+.inputs textarea,
+.select {
   height: auto;
   scrollbar-width: none;
   padding: 10px 15px;
-  color: #33475b;
+  color: #757575;
   margin-top: 5px;
   background-color: #f5f8fa;
 }
@@ -85,8 +89,18 @@ button {
   padding: 10px 20px;
   cursor: pointer;
   width: 91%;
+  margin-top: 32px;
 }
 
 button:disabled {
   background-color: #787680;
+}
+.description textarea{
+  height: fit-content;
+}
+.checkboxStyle{
+  margin-left: 0.5em;
+  color: #757575;
+  font-size: 16px;
+  margin-bottom: 32px;
 }
