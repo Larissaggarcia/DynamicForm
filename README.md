@@ -1,4 +1,9 @@
-# Getting Started with Create React App
+# Dynamic Portfolio-VTEX
+
+Welcome to the VTEX selection process case! This case was executed to demonstrate my skills as a developer, using my skills with code versioning, use of APIs, Front-End development, where I created this portfolio using HTML, CSS, React and UX concepts for a harmonious desktop design. The data from this form is sent to the Zendesk ticket portal as requested.
+If you have any questions, I am available for contact!
+
+## Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
